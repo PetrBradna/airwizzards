@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Airwizzards – Z Excelu rovnou do appky</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">
+        <span class="logo-icon">⚡</span>
+        <span>Air<strong>wizzards</strong></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#jak-to-funguje">Jak to funguje</a></li>
+        <li><a href="#sluzby">Služby</a></li>
+        <li><a href="#vyhody">Výhody</a></li>
+        <li><a href="#kontakt" class="btn-nav">Kontakt</a></li>
+      </ul>
+      <button class="burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="blob blob1"></div>
+      <div class="blob blob2"></div>
+      <div class="blob blob3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="badge">🚀 Excel → App za pár dní</div>
+      <h1>
+        Tvůj Excel<br />
+        <span class="gradient-text">dostane křídla</span>
+      </h1>
+      <p class="hero-sub">
+        Propojíme tvoje tabulky s <strong>Glide</strong> a proměníme je v krásnou,
+        plně funkční mobilní nebo webovou aplikaci. Žádné kódování. Jen výsledky.
+      </p>
+      <div class="hero-cta">
+        <a href="#kontakt" class="btn-primary">Chci svou appku</a>
+        <a href="#jak-to-funguje" class="btn-ghost">Jak to funguje →</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">50+</span>
+          <span class="stat-label">Aplikací</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">3 dny</span>
+          <span class="stat-label">Průměrná dodávka</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">Spokojených klientů</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="mockup-wrapper">
+        <div class="mockup-excel">
+          <div class="mockup-header excel-header">
+            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+            <span class="mockup-title">data.xlsx</span>
+          </div>
+          <div class="mockup-body excel-body">
+            <div class="excel-row header-row">
+              <div class="cell">Jméno</div>
+              <div class="cell">Status</div>
+              <div class="cell">Hodnota</div>
+            </div>
+            <div class="excel-row"><div class="cell">Jan Novák</div><div class="cell"><span class="tag green">Aktivní</span></div><div class="cell">12 400 Kč</div></div>
+            <div class="excel-row"><div class="cell">Eva Malá</div><div class="cell"><span class="tag orange">Čeká</span></div><div class="cell">8 750 Kč</div></div>
+            <div class="excel-row"><div class="cell">Petr Dvořák</div><div class="cell"><span class="tag green">Aktivní</span></div><div class="cell">31 200 Kč</div></div>
+            <div class="excel-row"><div class="cell">Lucie Kos</div><div class="cell"><span class="tag red">Inactive</span></div><div class="cell">4 100 Kč</div></div>
+          </div>
+        </div>
+        <div class="arrow-transform">
+          <div class="arrow-line"></div>
+          <span class="arrow-label">Airwizzards ✨</span>
+        </div>
+        <div class="mockup-app">
+          <div class="mockup-header app-header">
+            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+            <span class="mockup-title">Moje Appka</span>
+          </div>
+          <div class="mockup-body app-body">
+            <div class="app-search">🔍 Hledat zákazníky…</div>
+            <div class="app-card">
+              <div class="app-avatar">JN</div>
+              <div class="app-info"><strong>Jan Novák</strong><span class="tag-sm green">Aktivní</span></div>
+              <div class="app-val">12 400 Kč</div>
+            </div>
+            <div class="app-card">
+              <div class="app-avatar orange">EM</div>
+              <div class="app-info"><strong>Eva Malá</strong><span class="tag-sm orange">Čeká</span></div>
+              <div class="app-val">8 750 Kč</div>
+            </div>
+            <div class="app-card">
+              <div class="app-avatar purple">PD</div>
+              <div class="app-info"><strong>Petr Dvořák</strong><span class="tag-sm green">Aktivní</span></div>
+              <div class="app-val">31 200 Kč</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== JAK TO FUNGUJE ===== -->
+  <section class="section steps-section" id="jak-to-funguje">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Proces</span>
+        <h2>Od tabulky k appce<br /><span class="gradient-text">ve 3 krocích</span></h2>
+      </div>
+      <div class="steps">
+        <div class="step reveal">
+          <div class="step-number">01</div>
+          <div class="step-icon">📊</div>
+          <h3>Sdíleš Excel</h3>
+          <p>Pošleš nám svou tabulku nebo Google Sheet. Klidně i ten nejkomplikovanější. Nic upravovat nemusíš.</p>
+        </div>
+        <div class="step-connector"><div class="connector-line"></div></div>
+        <div class="step reveal">
+          <div class="step-number">02</div>
+          <div class="step-icon">⚙️</div>
+          <h3>My tvoříme</h3>
+          <p>Propojíme data s Glide, navrhneme UX a přidáme funkce — filtrování, notifikace, formuláře.</p>
+        </div>
+        <div class="step-connector"><div class="connector-line"></div></div>
+        <div class="step reveal">
+          <div class="step-number">03</div>
+          <div class="step-icon">🚀</div>
+          <h3>Spouštíš appku</h3>
+          <p>Dostaneš odkaz. Sdílíš týmu. Data se aktualizují automaticky — Excel zůstává zdrojem pravdy.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SLUŽBY ===== -->
+  <section class="section services-section" id="sluzby">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Služby</span>
+        <h2>Co pro tebe<br /><span class="gradient-text">uděláme</span></h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon">📱</div>
+          <h3>Mobilní aplikace</h3>
+          <p>Appka ve tvém mobilu přímo napojená na Excel. Záznamy, přehledy, formuláře — vždy po ruce.</p>
+          <ul>
+            <li>iOS & Android</li>
+            <li>Offline režim</li>
+            <li>Push notifikace</li>
+          </ul>
+        </div>
+        <div class="service-card reveal featured">
+          <div class="featured-label">Nejoblíbenější</div>
+          <div class="service-icon">💻</div>
+          <h3>Webová aplikace</h3>
+          <p>Plnohodnotná webová appka dostupná z prohlížeče. Ideální pro týmy a interní nástroje.</p>
+          <ul>
+            <li>Responzivní design</li>
+            <li>Sdílení s týmem</li>
+            <li>Rolové oprávnění</li>
+          </ul>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">🔄</div>
+          <h3>Automatizace</h3>
+          <p>Propojíme Excel se světem — Slack, email, Zapier, Make. Data se posunou sama bez tvého zásahu.</p>
+          <ul>
+            <li>Automatické emaily</li>
+            <li>Slack notifikace</li>
+            <li>Zapier / Make</li>
+          </ul>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">🎨</div>
+          <h3>Vlastní design</h3>
+          <p>Appka bude vypadat jako tvoje. Barvy, logo, ikonky — přizpůsobíme vše firemnímu brandin­gu.</p>
+          <ul>
+            <li>Firemní branding</li>
+            <li>Custom ikony</li>
+            <li>Barevné schéma</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== VÝHODY ===== -->
+  <section class="section benefits-section" id="vyhody">
+    <div class="container benefits-container">
+      <div class="benefits-text reveal">
+        <span class="section-badge">Proč Airwizzards?</span>
+        <h2>Žádné kódování.<br /><span class="gradient-text">Čisté výsledky.</span></h2>
+        <p>Nemusíš čekat měsíce na vývojáře ani utrácet stovky tisíc. S Airwizzards máš appku rychle, levně a přesně takovou, jakou potřebuješ.</p>
+        <div class="benefits-list">
+          <div class="benefit-item">
+            <span class="benefit-check">✓</span>
+            <div><strong>Rychlost</strong> — hotovo za dny, ne měsíce</div>
+          </div>
+          <div class="benefit-item">
+            <span class="benefit-check">✓</span>
+            <div><strong>Cena</strong> — zlomek nákladů vlastního vývoje</div>
+          </div>
+          <div class="benefit-item">
+            <span class="benefit-check">✓</span>
+            <div><strong>Jednoduchost</strong> — Excel zůstává, přibyde appka</div>
+          </div>
+          <div class="benefit-item">
+            <span class="benefit-check">✓</span>
+            <div><strong>Spolehlivost</strong> — Glide pohání tisíce firem</div>
+          </div>
+          <div class="benefit-item">
+            <span class="benefit-check">✓</span>
+            <div><strong>Podpora</strong> — jsme tu i po spuštění</div>
+          </div>
+        </div>
+        <a href="#kontakt" class="btn-primary">Pojďme na to</a>
+      </div>
+      <div class="benefits-visual reveal">
+        <div class="comparison-card">
+          <div class="comp-col bad">
+            <div class="comp-label">Klasický vývoj</div>
+            <div class="comp-item"><span>⏳</span> 3–6 měsíců</div>
+            <div class="comp-item"><span>💸</span> 300 000–1M Kč</div>
+            <div class="comp-item"><span>😰</span> Složitá komunikace</div>
+            <div class="comp-item"><span>🔒</span> Závislost na vývojáři</div>
+            <div class="comp-item"><span>❌</span> Excel nevyužiješ</div>
+          </div>
+          <div class="comp-vs">VS</div>
+          <div class="comp-col good">
+            <div class="comp-label gradient-text">Airwizzards</div>
+            <div class="comp-item"><span>⚡</span> 1–5 dní</div>
+            <div class="comp-item"><span>💰</span> Dostupná cena</div>
+            <div class="comp-item"><span>😊</span> Přímá komunikace</div>
+            <div class="comp-item"><span>🔓</span> Ty máš kontrolu</div>
+            <div class="comp-item"><span>✅</span> Excel jako základ</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== KONTAKT ===== -->
+  <section class="section contact-section" id="kontakt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Kontakt</span>
+        <h2>Začneme hned<br /><span class="gradient-text">dnes?</span></h2>
+        <p>Napiš nám co potřebuješ a my se ozveme do 24 hodin s návrhem řešení.</p>
+      </div>
+      <div class="contact-wrapper">
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Jméno</label>
+              <input type="text" id="name" placeholder="Jan Novák" required />
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" placeholder="jan@firma.cz" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="company">Firma (nepovinné)</label>
+            <input type="text" id="company" placeholder="Moje s.r.o." />
+          </div>
+          <div class="form-group">
+            <label for="message">Co potřebuješ?</label>
+            <textarea id="message" rows="4" placeholder="Popište svůj Excel a co chcete, aby appka dělala…" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary full-width">Odeslat poptávku 🚀</button>
+          <div class="form-success" id="formSuccess">
+            ✅ Zpráva odeslána! Ozveme se do 24 hodin.
+          </div>
+        </form>
+        <div class="contact-info">
+          <div class="contact-card">
+            <div class="contact-icon">✉️</div>
+            <div>
+              <strong>E-mail</strong>
+              <a href="mailto:info@airwizzards.cz">info@airwizzards.cz</a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">💬</div>
+            <div>
+              <strong>Rychlá odpověď</strong>
+              <span>Odpovídáme do 24 hod</span>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">📍</div>
+            <div>
+              <strong>Kde jsme</strong>
+              <span>Česká republika 🇨🇿</span>
+            </div>
+          </div>
+          <div class="contact-quote">
+            <p>"Pošli nám svůj Excel a my z něj uděláme něco, co tě bude bavit používat."</p>
+            <span>— Tým Airwizzards</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-logo">
+        <span class="logo-icon">⚡</span>
+        <span>Air<strong>wizzards</strong></span>
+        <p>Z Excelu rovnou do appky.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#jak-to-funguje">Jak to funguje</a>
+        <a href="#sluzby">Služby</a>
+        <a href="#vyhody">Výhody</a>
+        <a href="#kontakt">Kontakt</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2024 Airwizzards. Všechna práva vyhrazena.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
