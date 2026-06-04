@@ -4,7 +4,7 @@
       "command": "npx",
       "args": ["-y", "github:sesonet/freelo-mcp-server"],
       "env": {
-        "FREELO_EMAIL": "Bradna.petr@seznam.cz",
+        "FREELO_EMAIL": "bradna.petr@gmail.com",
         "FREELO_API_KEY": "qCSaHtOdH0O1X2XvV1hcCbi6L1Vpg3eX2MuhnnyYopG",
         "FREELO_USER_AGENT": "claude-airwizzards"
       }
