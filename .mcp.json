@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "glide": {
+      "command": "node",
+      "args": ["./tools/glide-mcp/index.js"],
+      "env": {
+        "GLIDE_TOKEN": "${GLIDE_TOKEN}",
+        "GLIDE_APP": "SSTBPKEkmJdwAT3Q1eQg"
+      }
+    }
+  }
+}
