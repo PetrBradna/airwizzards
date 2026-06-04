@@ -8,6 +8,14 @@
         "FREELO_API_KEY": "qCSaHtOdH0O1X2XvV1hcCbi6L1Vpg3eX2MuhnnyYopG",
         "FREELO_USER_AGENT": "claude-airwizzards"
       }
+    },
+    "glide": {
+      "command": "node",
+      "args": ["./tools/glide-mcp/index.js"],
+      "env": {
+        "GLIDE_TOKEN": "1e82b9ee-ef8c-4548-aa0d-12b76d7fd2ac",
+        "GLIDE_APP": "SSTBPKEkmJdwAT3Q1eQg"
+      }
     }
   }
 }
