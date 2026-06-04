@@ -1,0 +1,8 @@
+[build]
+  # No static site to build; we only ship the serverless function.
+  command = "echo 'no build step'"
+  publish = "public"
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"

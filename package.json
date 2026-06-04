@@ -1,0 +1,9 @@
+{
+  "name": "airwizzards-glide-mcp-remote",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Remote MCP server (Netlify Function) for the PLANiX Glide app.",
+  "dependencies": {
+    "@glideapps/tables": "^1.0.21"
+  }
+}
