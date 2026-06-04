@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "freelo": {
+      "command": "npx",
+      "args": ["-y", "github:sesonet/freelo-mcp-server"],
+      "env": {
+        "FREELO_EMAIL": "${FREELO_EMAIL}",
+        "FREELO_API_KEY": "${FREELO_API_KEY}",
+        "FREELO_USER_AGENT": "${FREELO_USER_AGENT}"
+      }
+    }
+  }
+}
